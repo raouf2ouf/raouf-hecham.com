@@ -1,0 +1,26 @@
+main {
+  a {
+    // color: var(--ion-color-light-shade) !important;
+    opacity: 0.9;
+    // font-weight: bold;
+  }
+  .description {
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 18px;
+    margin-bottom: 100px;
+    color: var(--ion-color-medium-tint);
+    background-color: var(--background-color-light);
+    border: 1px solid var(--ion-color-primary-shade);
+    padding: 12px;
+    em {
+      color: var(--ion-color-light-shade);
+      opacity: 0.9;
+      font-weight: bold;
+    }
+    p {
+      margin-bottom: 18px;
+      line-height: 1.7;
+    }
+  }
+}

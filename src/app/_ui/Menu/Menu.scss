@@ -1,0 +1,60 @@
+.menu-container {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+
+  .info {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    .name {
+      font-size: 3rem;
+      font-weight: bold;
+      color: var(--ion-color-light-shade);
+      @media (max-width: 640px) {
+        font-size: 2.25rem;
+      }
+      @media (max-width: 400px) {
+        font-size: 2rem;
+      }
+    }
+    .title {
+      font-size: 20px;
+      color: var(--ion-color-light-shade);
+      font-weight: bold;
+    }
+    .subtitle {
+      margin-top: 16px;
+      font-size: 18px;
+      color: var(--ion-color-medium-tint);
+    }
+  }
+
+  .navigation {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-top: 5rem;
+    button {
+      text-transform: uppercase;
+    }
+    .active {
+      background-color: var(--background-color-light);
+    }
+  }
+
+  .socials {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    & > * {
+      font-size: 28px;
+      margin: 0px 8px;
+      opacity: 0.8;
+    }
+    & > *:first-child {
+      margin-left: 0px;
+    }
+  }
+}
