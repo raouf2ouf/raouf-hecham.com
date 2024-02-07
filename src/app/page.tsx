@@ -1,6 +1,6 @@
 import { Link } from "@nextui-org/react";
 import "./page.scss";
-import Experience from "./_ui/Experience/Experience";
+import Experience from "./ui/Experience/Experience";
 import { experiences } from "./data";
 
 export default function Home() {

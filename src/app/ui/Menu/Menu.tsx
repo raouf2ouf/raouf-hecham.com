@@ -9,7 +9,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 
-import useScrollspy from "@hooks/useScrollspy";
+import useScrollspy from "@/app/hooks/useScrollspy";
 
 const sections = [
   { id: "about", text: "About" },

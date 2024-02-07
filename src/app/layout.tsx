@@ -3,7 +3,7 @@ import "./globals.scss";
 import { Providers } from "./providers";
 
 import { Titillium_Web } from "next/font/google";
-import Menu from "./_ui/Menu/Menu";
+import Menu from "./ui/Menu/Menu";
 
 const font = Titillium_Web({ weight: ["400", "600"], subsets: ["latin"] });
 

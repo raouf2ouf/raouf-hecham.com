@@ -1,4 +1,4 @@
-import { IExperience } from "./_ui/Experience/Experience.interface";
+import { IExperience } from "./ui/Experience/Experience.interface";
 
 export const experiences: IExperience[] = [
   {
