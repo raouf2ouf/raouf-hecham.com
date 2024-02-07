@@ -41,16 +41,28 @@ const Menu: React.FC<Props> = ({}) => {
         </div>
       </div>
       <div className="socials">
-        <Button as={Link} isIconOnly variant="light" color="primary">
+        <Button
+          as={Link}
+          isIconOnly
+          variant="light"
+          color="primary"
+          href="https://github.com/raouf2ouf"
+        >
           <FaGithub />
         </Button>
-        <Button as={Link} isIconOnly variant="light" color="primary">
+        <Button
+          as={Link}
+          isIconOnly
+          variant="light"
+          color="primary"
+          href="https://www.linkedin.com/in/abdelraouf-hecham/"
+        >
           <FaLinkedin />
         </Button>
-        <Button as={Link} isIconOnly variant="light" color="primary">
+        <Button as={Link} isIconOnly variant="light" color="primary" href="">
           <FaStackOverflow />
         </Button>
-        <Button as={Link} isIconOnly variant="light" color="primary">
+        <Button as={Link} isIconOnly variant="light" color="primary" href="">
           <FaTwitter />
         </Button>
       </div>
