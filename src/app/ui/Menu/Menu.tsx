@@ -66,7 +66,7 @@ const Menu: React.FC<Props> = ({}) => {
           <FaTwitter />
         </Button>
       </div>
-      <div className="navigation">
+      <div className="navigation hide-lg">
         {sections.map((s) => {
           return (
             <Button

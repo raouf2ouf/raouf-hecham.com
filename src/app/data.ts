@@ -10,7 +10,7 @@ export const experiences: IExperience[] = [
     location: "Montpellier - France",
     points: [
       "Oversaw a team of 5 developers in building a French NLP model (with OCR) for automatic detection of changes in EU regulations for a cosmetics manufacturer.",
-      "Led the the developement of a generic library for integrating Qlik suite with an existing Angular app for real-time custom visualization of financial data.",
+      "Led the the development of a generic library for integrating Qlik suite with an existing Angular app for real-time custom visualization of financial data.",
       "Implemented data integration piplines to process semi-structured data from multiple sources using Hadoop/Talend for various clients.",
       "Designed and Implemented Salesforce applications that rely on Talend REST APIs to display and interact with NoSQL HBase data.",
       "Developed Qlik Sense and Tableau dashboards along with the underlying ETL data integration processes for various clients.",
@@ -34,6 +34,9 @@ export const experiences: IExperience[] = [
       "AWS",
       "GCP",
       "Azure",
+      "Kubernetes",
+      "CI/CD",
+      "Elasticsearch",
     ],
   },
   {
@@ -48,7 +51,7 @@ export const experiences: IExperience[] = [
       "Implemented modular architecture across the entire stack while overseeing deployment, documentation, and deliverable reports.",
       "Implemented Spring REST API with real-time collaboration using websockets.",
       "Implemented Angular Front-end with graph visualization and interaction.",
-      "Tutoring and Lecturing duties (+300h) for graduate students (Databases, Human-Computer Interaction, Web Developement)",
+      "Tutoring and Lecturing duties (+300h) for graduate students (Databases, Human-Computer Interaction, Web Development)",
     ],
     technologies: [
       "Typescript",

@@ -7,8 +7,6 @@ main {
   .description {
     font-size: 18px;
     text-align: justify;
-    margin-top: 18px;
-    margin-bottom: 100px;
     color: var(--ion-color-medium-tint);
     background-color: var(--background-color-light);
     border: 1px solid var(--ion-color-primary-shade);
@@ -21,6 +19,48 @@ main {
     p {
       margin-bottom: 18px;
       line-height: 1.7;
+    }
+  }
+  .cv {
+    display: flex;
+    margin: 18px 0px;
+    align-items: center;
+    justify-content: center;
+    .cv-en,
+    .cv-fr {
+      border: 1px solid transparent;
+      padding: 8px;
+      &:hover {
+        background-color: var(--background-color-light);
+        border-color: var(--ion-color-primary-shade);
+      }
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .cv-fr {
+      margin-left: 20px;
+    }
+  }
+  .section {
+    scroll-margin-top: 4rem;
+  }
+  .section-title {
+    display: none;
+    position: sticky;
+    top: 0;
+    text-transform: uppercase;
+    background-color: rgba(var(--background-color-dark-rgb), 0.8);
+    backdrop-filter: blur(8px);
+    color: var(--ion-color-primary-shade);
+    // font-weight: bold;
+    padding: 16px 8px;
+    z-index: 20;
+    @media (max-width: 1024px) {
+      display: flex;
+      align-items: center;
     }
   }
 }

@@ -16,6 +16,8 @@
 
   --background-color-light: #112240;
   --background-color-dark: #091424;
+  --background-color-light-rgb: 17, 34, 64;
+  --background-color-dark-rgb: 9, 20, 36;
 
   /** primary **/
   --ion-color-primary: #0bdbfbdd;
@@ -147,12 +149,11 @@ body {
       padding-top: 1.5rem;
     }
     .main-content {
-      padding-top: 5rem;
-      padding-bottom: 5rem;
+      padding-top: 1.3rem;
+      padding-bottom: 1.3rem;
       flex: 1;
       display: flex;
       flex-direction: column;
-      overflow-y: auto;
     }
   }
 }
@@ -181,6 +182,8 @@ body {
         top: 0;
       }
       .main-content {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
         width: 50%;
       }
     }
