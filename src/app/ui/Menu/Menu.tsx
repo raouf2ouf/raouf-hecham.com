@@ -33,7 +33,7 @@ const Menu: React.FC<Props> = ({}) => {
         <div className="title">
           Senior <em>Data Engineer</em> & <br />
           Fullstack <em>Smart Contracts </em>
-          Developper
+          Developer
         </div>
         <div className="subtitle">
           I build and design web3 solutions that <br /> leverage the power of
