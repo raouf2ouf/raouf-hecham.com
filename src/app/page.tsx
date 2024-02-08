@@ -57,7 +57,7 @@ export default function Home() {
           <div>Resume in English</div>
         </div>
         <div className="cv-fr">
-          <a href="/cv-en.pdf" target="_blank">
+          <a href="/cv-fr.pdf" target="_blank">
             <Image
               src="/cv-snapshot.png"
               alt="cv-en"
