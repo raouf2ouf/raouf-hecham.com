@@ -30,16 +30,20 @@ export default function Home() {
             working on my main hobby web3 apps{" "}
             <Link showAnchorIcon href="#">
               Mnemofy
-            </Link>
-            , and{" "}
+            </Link>{" "}
+            (coming soon) , and{" "}
             <Link showAnchorIcon href="#">
               Metisify
-            </Link>
-            , and{" "}
-            <Link showAnchorIcon href="#">
+            </Link>{" "}
+            (coming soon) , and{" "}
+            <Link showAnchorIcon href="https://ethpoir.app">
               Restricted RPS
+            </Link>{" "}
+            (
+            <Link href="https://www.encode.club/lightlink-hackathon">
+              winner of Encode x Lightlink Hackathon!
             </Link>
-            .
+            ) .
           </p>
         </div>
       </section>
